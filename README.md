@@ -1,6 +1,6 @@
 # Criando Formulários 1
 
-![preview](./images/preview.png)
+![preview](./img/preview.png)
 
 5º Desafio da trilha Explorar da Rocketseat.  
 Aprendemos como funcionam os formulários e criamos um totalmente do zero.
