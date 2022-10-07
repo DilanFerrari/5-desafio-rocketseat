@@ -1,10 +1,11 @@
-#  5º Desafio do explorer Rocketseat  
+# Criando Formulários 1
 
-![preview](./img/preview.png)
+![preview](./images/preview.png)
 
-A parte 1 do 5º desafio do explorer da Rocketseat, mexendo com formularios.
+5º Desafio da trilha Explorar da Rocketseat.  
+Aprendemos como funcionam os formulários e criamos um totalmente do zero.
 
-[🔗 Clique aqui para acessar](https://dilanferrari.github.io/5-desafio-rocketseat-forms-1/)
+[🔗 Clique aqui para acessar](https://dilanferrari.github.io/criando-formulario-1/)
 
 ## 🖥️ Tecnologias
 

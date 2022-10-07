@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    font-size: 62.5%;
+}
 body {
     max-width: 750px;
     margin: 0 auto;
@@ -31,11 +34,11 @@ header h1, p {
 h1 {
     font-family: "staatliches", sans-serif;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 4.8rem;
     margin-top: 140px;
 }
 header p {
-    font-size: 20px;
+    font-size: 2.0rem;
     margin: 18px 0 58px;
 }
 form {
@@ -57,7 +60,7 @@ fieldset {
 }
 legend {
     font-family: "staatliches", sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #535971;
     padding-bottom: 16px;
     border-bottom: 1px solid #E6E6F0;
@@ -84,12 +87,12 @@ legend {
     color: #4E4958;
 }
 .input-wrapper label {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #4E4958;
     padding-bottom: 8px;
 }
 .input-wrapper span {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #807e83;
     margin-left: 9px;
 }
@@ -102,7 +105,7 @@ legend {
     text-transform: uppercase;
     font-family: "staatliches", sans-serif;
     color: #535971;
-    font-size: 20px;
+    font-size: 2.0rem;
 }
 .input-fulltime {
     display: flex;
@@ -123,15 +126,42 @@ footer {
 }
 footer .button {
     background-color: #FF5374;
-    padding: 15px 279px;
+    padding: 15px;
+    width: 100%;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     color: #fff;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-family: 'Staatliches', sans-serif;
     font-weight: 400;
 }
 .button:hover {
     background-color: #fd7490;
+}
+@media (max-width: 750px) {
+    body {
+        padding: 10px;
+    }
+    header {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 550px) {
+    header {
+        width: auto;
+    }
+    form {
+        padding: 20px;
+    }
+    .input-fullname {
+        flex-direction: column;
+    }
+    .input-fulltime {
+        flex-direction: column;
+    }
+    footer {
+        padding: 5.2rem 3.1rem;
+    }
 }
